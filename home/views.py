@@ -8,9 +8,9 @@ def index(request):
 def about(request):
     return  render(request,'About.html', )
     #return HttpResponse("About")
-def services(request):
-    return  render(request,'Services.html', )
-    #return HttpResponse("Services")
+def login(request):
+    return  render(request,'login.html', )
+    #return HttpResponse("login")
 def contact(request):
     return  render(request,'Contact.html', )
     #return HttpResponse("Contact")
